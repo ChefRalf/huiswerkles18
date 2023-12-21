@@ -1,0 +1,70 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+        background-image: url(Markt-Vlaardigen.jpg); 
+        background-position: center;
+        height: 300px; 
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 2em;
+        color: red;
+}
+
+.content {
+    display: flex;
+}
+
+.left-section {
+    flex: 2;
+    padding: 20px;
+}
+
+.right-section {
+    background-color: grey;
+    flex: 9;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.article {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+}
+
+.kolom {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+}
+
+img {
+    float: right;
+    width: 25%;
+    height: auto;
+    margin-right: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+@media only screen and (max-width: 600px) {
+    
+}
